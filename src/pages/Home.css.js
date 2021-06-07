@@ -13,8 +13,8 @@ export const HomeStyles = styled.div`
   object-fit: contain;
   overflow: hidden;
   min-width: 100vw;
-  min-height: 100vh;
-  padding: 3rem;
+  height: 70vh;
+  padding: 1rem 3rem;
 `;
 
 export const TopRow = styled.div`
@@ -31,5 +31,5 @@ export const MiddleRow = styled.div`
   grid-column-gap: 5rem;
   place-items: center;
   width: 100%;
-  margin-top: 10rem;
+  margin-top: 3rem;
 `;

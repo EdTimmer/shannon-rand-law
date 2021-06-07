@@ -7,9 +7,10 @@ export const StyledButton = styled.button`
   width: 20rem;
   display: grid;
   place-items: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 2rem;
   margin-left: 5rem;
+  text-transform: uppercase;
 
   &:hover {
     background-color: rgba(30, 144, 255);

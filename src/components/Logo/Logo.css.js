@@ -7,4 +7,5 @@ export const StyledHeader = styled.h1`
   padding-left: 5rem;
   /* align-self: end; */
   place-self: end start;
+  padding-top: 1rem;
 `;
