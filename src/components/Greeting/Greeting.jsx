@@ -1,5 +1,6 @@
 import { StyledGreeting, GreetingHeader, GreetingText } from './Greeting.css.js';
 
+// name to be changed
 const Greeting = () => (
   <StyledGreeting>
     <GreetingHeader>
