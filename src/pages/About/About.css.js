@@ -5,7 +5,7 @@ export const AboutWrapper = styled.div`
   /* height: 50rem; */
   background-color: #fdf0d5ff;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   align-items: center;
   padding: 2.4rem;
   color: #003049ff;
@@ -16,13 +16,17 @@ export const AboutWrapper = styled.div`
 // `;
 
 export const DescriptionWrapper = styled.p`
-  padding: 2.4rem;
+  padding: 0 2.4rem;
 `;
 
 export const Header = styled.h3`
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 `;
 
 export const TextWrapper = styled.p`
   font-size: 1.6rem;
+`;
+
+export const MembershipsWrapper = styled.div`
+  margin-top: 2rem;
 `;

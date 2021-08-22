@@ -1,27 +1,55 @@
-import { ContactWrapper, ContactHeader, ContactText } from "./Contact.css";
+import { ContactWrapper, ContactHeader, ContactText, TypeHeader, LeftSection, RightSection, TopSection, HeaderAndText } from "./Contact.css";
 
 const Contact = () => (
   <ContactWrapper>
-    <ContactHeader>
-      Contact Information
-    </ContactHeader>
-    <ContactText>
-      <div>
+    <TopSection>
+      <ContactHeader>
+        Contact Information
+      </ContactHeader>
+    </TopSection>
+
+    <LeftSection>
+      <TypeHeader>
+        Address
+      </TypeHeader>
+      <ContactText>
         203 Washington St. #177
-      </div>
-      <div>
+      </ContactText>
+      <ContactText>
         Salem, MA 01970
-      </div>
-      <div>
-        978-219-4636
-      </div>
-      <div>
-        srand@srandlegal.com
-      </div>
-      <div>
-        srandlegal.com
-      </div>
-    </ContactText>
+      </ContactText>
+    </LeftSection>
+    <RightSection>
+      <HeaderAndText>
+        <TypeHeader>
+          Phone:
+        </TypeHeader>      
+        <ContactText>
+          978-219-4636
+        </ContactText>
+      </HeaderAndText>
+      
+      <HeaderAndText>
+        <TypeHeader>
+          Email:
+        </TypeHeader>
+        <ContactText>
+          srand@srandlegal.com
+        </ContactText>
+      </HeaderAndText>
+      
+      <HeaderAndText>
+        <TypeHeader>
+          Web:
+        </TypeHeader>
+        <ContactText>
+          srandlegal.com
+        </ContactText>
+      </HeaderAndText>
+      
+
+    </RightSection>
+    
   </ContactWrapper>
 );
 

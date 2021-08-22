@@ -12,11 +12,13 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServiceHeader = styled.h3`
-  margin-bottom: 2.4rem;
-  margin-top: 2.4rem;
+  margin-bottom: 2rem;
+  /* margin-top: 2.4rem; */
 `;
 
 export const ServiceText = styled.p`
   font-size: 1.8rem;
-  
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
 `;

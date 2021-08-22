@@ -1,10 +1,7 @@
-import { MembershipsWrapper, MembershipsHeader, MembershipsContent} from './Memberships.css';
+import { MembershipsWrapper, MembershipsContent} from './Memberships.css';
 
 const Memberships = () => (
   <MembershipsWrapper>
-    <MembershipsHeader>
-      Attorney Shannon Rand is a member of numerous bar associations and professional organizations:
-    </MembershipsHeader>
     <MembershipsContent>
       <div>
         Massachusetts Bar Association

@@ -13,6 +13,6 @@ export const StyledPhone = styled.div`
   place-items: center;
   font-size: 2rem;
   padding: 0.5rem;
-  margin: 3rem;
+  /* margin: 3rem; */
   justify-self: end;
 `;

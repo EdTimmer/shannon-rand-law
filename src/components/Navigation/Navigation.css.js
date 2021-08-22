@@ -11,15 +11,16 @@ export const NavigationWrapper = styled.div`
   /* margin-left: auto; */
   /* width: 100%; */
   background-color: none;
-  margin-right: 3rem;
-  align-self: start;
+  /* margin-right: 3rem; */
+  place-self: start end;
 
 `;
 
 export const NavigationLink = styled(Link)`
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: normal;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem;
+  padding: 1rem 0 1rem 2rem;
 `;

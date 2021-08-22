@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const StyledGreeting = styled.div`
   width: 100%;
-  padding: 1rem 3rem;
+  /* padding: 1rem 3rem; */
 `;
 
 export const GreetingHeader = styled.div`

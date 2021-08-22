@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 
 export const SloganWrapper = styled.div`
   background-color: none;
+  /* margin-top: 2rem; */
 `;
 
 export const SloganText = styled.h1`

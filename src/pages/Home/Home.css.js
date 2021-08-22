@@ -28,7 +28,7 @@ export const CenterSection = styled.div`
   overflow: hidden;
   /* min-width: 100%; */
   height: 70vh;
-  /* padding: 1rem 3rem; */
+  padding: 3rem;
 `;
 
 export const FirstRow = styled.div`
@@ -48,6 +48,6 @@ export const PhoneAndNavWrapper = styled.div`
 export const SecondRow = styled.div`
   display: grid;
   width: 100%;
-  margin: 3rem;
+  margin-top: 5rem;
   place-items: start;
 `;

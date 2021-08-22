@@ -10,10 +10,6 @@ export const MembershipsWrapper = styled.div`
   color: #003049ff;
 `;
 
-export const MembershipsHeader = styled.h3`
-  color: #003049ff;
-`;
-
 export const MembershipsContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;

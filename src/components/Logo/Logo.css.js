@@ -12,7 +12,7 @@ export const LogoWrapper = styled.div`
   font-family: 'Great Vibes', cursive;
   font-size: 4.6rem;
   padding-left: 5rem;
-  place-self: end start;
-  margin: 3rem;
+  place-self: start;
+  /* margin: 3rem; */
   /* padding-top: 1rem; */
 `;
