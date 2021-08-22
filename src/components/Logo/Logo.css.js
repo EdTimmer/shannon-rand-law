@@ -1,11 +1,18 @@
 import styled from '@emotion/styled';
+import logo from '../../images/logo.png';
 
-export const StyledHeader = styled.h1`
+export const LogoWrapper = styled.div`
+  background-image: url(${logo});
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  object-fit: contain;
+  width: 30rem;
+  height: 15rem;
   color: white;
   font-family: 'Great Vibes', cursive;
   font-size: 4.6rem;
   padding-left: 5rem;
-  /* align-self: end; */
   place-self: end start;
-  padding-top: 1rem;
+  margin: 3rem;
+  /* padding-top: 1rem; */
 `;

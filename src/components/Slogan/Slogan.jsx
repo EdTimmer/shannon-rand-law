@@ -1,7 +1,12 @@
-import { StyledSlogan } from './Slogan.css.js';
+import { SloganWrapper, SloganText } from './Slogan.css.js';
 
 const Slogan = () => (
-  <StyledSlogan>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </StyledSlogan>
+  <SloganWrapper>
+    <SloganText>Family Law Consultations</SloganText>
+    <SloganText>Child Support Proceedings</SloganText>
+    <SloganText>Mediation</SloganText>
+  </SloganWrapper>
+  
 )
 
 export default Slogan;

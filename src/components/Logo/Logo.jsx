@@ -1,7 +1,8 @@
-import { StyledHeader } from './Logo.css.js';
+import { LogoWrapper } from './Logo.css.js';
 
-const Logo = () => (
-  <StyledHeader>Shannon Rand Law</StyledHeader>
+const Logo = () => (  
+  <LogoWrapper />
 )
+
 
 export default Logo;

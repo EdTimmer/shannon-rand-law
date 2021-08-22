@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
 
 export const StyledPhone = styled.div`
-  background-color: rgb(0,157,220);
+  background-color: #780000ff;
   width: 20rem;
+  height: 5rem;
   /* padding: 1rem; */
   display: grid;
   grid-template-columns: min-content max-content;
@@ -12,4 +13,6 @@ export const StyledPhone = styled.div`
   place-items: center;
   font-size: 2rem;
   padding: 0.5rem;
+  margin: 3rem;
+  justify-self: end;
 `;
