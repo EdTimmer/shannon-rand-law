@@ -16,4 +16,9 @@ export const MembershipsContent = styled.div`
   grid-template-rows: repeat(1fr 4);
   /* color: white; */
   font-size: 1.8rem;
+
+  @media only screen and (max-width: 56.25em) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+  }
 `;

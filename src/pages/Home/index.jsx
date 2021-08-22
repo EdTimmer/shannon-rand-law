@@ -1,4 +1,4 @@
-import { Container, CenterSection, FirstRow, SecondRow, PhoneAndNavWrapper } from './Home.css';
+import { Container, CenterSection, FirstRow, SecondRow, PhoneAndNavWrapper, LogoWrapper } from './Home.css';
 import Logo from '../../components/Logo/Logo';
 import Navigation from '../../components/Navigation';
 import Slogan from '../../components/Slogan/Slogan';
@@ -11,7 +11,10 @@ const Home = () => (
   <Container>    
     <CenterSection>
       <FirstRow>
-        <Logo />
+        <LogoWrapper>
+          <Logo />
+        </LogoWrapper>
+        
         <PhoneAndNavWrapper>          
           <Phone />
           <Navigation />       

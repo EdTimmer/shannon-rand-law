@@ -5,6 +5,10 @@ export const Container = styled.div`
   width: 100%;
   height: 50vh;
   background-color: black;
+
+  @media only screen and (max-width: 56.25em) {
+    height: 70vh;
+  }
 `;
 // 102, 155, 188;
 export const CenterSection = styled.div`
@@ -24,33 +28,54 @@ export const CenterSection = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: contain;
+  /* object-fit: contain; */
   overflow: hidden;
   /* min-width: 100%; */
   height: 70vh;
   padding: 3rem;
   /* position: relative; */
   display: grid;
+  grid-template-rows: min-content min-content;
 `;
 
 export const FirstRow = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5rem;
+  grid-template-rows: min-content;
   width: 100%;
   /* position: fixed; */
+
+  @media only screen and (max-width: 56.25em) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: repeat(2 min-content);
+  }
+`;
+
+export const LogoWrapper = styled.div`
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  place-self: start;
+
+  @media only screen and (max-width: 56.25em) {
+    place-items: center;
+    place-self: center;
+  }
 `;
 
 export const PhoneAndNavWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  
+  grid-template-rows: repeat(2, min-content);
+
+  @media only screen and (max-width: 56.25em) {
+    place-self: center;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin-top: 3rem;
+  }
 `;
 
 export const SecondRow = styled.div`
   display: grid;
   width: 100%;
-  margin-top: 3rem;
-  place-items: start;
 `;

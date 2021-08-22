@@ -9,14 +9,30 @@ export const AboutWrapper = styled.div`
   align-items: center;
   padding: 2.4rem;
   color: #003049ff;
+
+  @media only screen and (max-width: 56.25em) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 `;
 
-// export const ImageContainer = styled.div`
-//   padding: 24px;
-// `;
+export const ImageContainer = styled.div`
+  grid-column: 1 / 2;
+  width: 100%;
+  height: 100%;
 
-export const DescriptionWrapper = styled.p`
+  @media only screen and (max-width: 56.25em) {
+    grid-column: 1 / 2;
+  }
+`;
+
+export const DescriptionWrapper = styled.div`
+  grid-column: 2 / 3;
   padding: 0 2.4rem;
+
+  @media only screen and (max-width: 56.25em) {
+    grid-column: 1 / 2;
+  }
 `;
 
 export const Header = styled.h3`

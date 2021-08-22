@@ -15,4 +15,8 @@ export const StyledPhone = styled.div`
   padding: 0.5rem;
   /* margin: 3rem; */
   justify-self: end;
+
+  @media only screen and (max-width: 56.25em) {
+    justify-self: center;
+  }
 `;
