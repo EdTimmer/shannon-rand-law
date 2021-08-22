@@ -8,9 +8,6 @@ export const LogoWrapper = styled.div`
   object-fit: contain;
   width: 30rem;
   height: 15rem;
-  color: white;
-  font-family: 'Great Vibes', cursive;
-  font-size: 4.6rem;
   padding-left: 5rem;
   place-self: start;
   /* margin: 3rem; */

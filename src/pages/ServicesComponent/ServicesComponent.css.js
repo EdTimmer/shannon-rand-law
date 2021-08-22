@@ -12,7 +12,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServiceHeader = styled.h3`
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
   /* margin-top: 2.4rem; */
 `;
 

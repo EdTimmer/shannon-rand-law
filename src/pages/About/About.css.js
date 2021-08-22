@@ -20,7 +20,7 @@ export const DescriptionWrapper = styled.p`
 `;
 
 export const Header = styled.h3`
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 `;
 
 export const TextWrapper = styled.p`

@@ -10,3 +10,11 @@ export const FooterStyled = styled.div`
   grid-template-columns: 1fr 1fr;
   align-items: center; */
 `;
+
+export const Header = styled.h3`
+  margin-bottom: 1.2rem;
+`;
+
+export const TextWrapper = styled.p`
+  font-size: 1.6rem;
+`;

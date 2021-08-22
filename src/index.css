@@ -46,7 +46,10 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  /* font-family: Helvetica; */
   font-weight: 400;
   line-height: 1.7;
   color: white;

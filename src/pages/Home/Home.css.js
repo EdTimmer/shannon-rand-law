@@ -29,13 +29,16 @@ export const CenterSection = styled.div`
   /* min-width: 100%; */
   height: 70vh;
   padding: 3rem;
+  /* position: relative; */
+  display: grid;
 `;
 
 export const FirstRow = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 5rem;
   width: 100%;
+  /* position: fixed; */
 `;
 
 export const PhoneAndNavWrapper = styled.div`
@@ -48,6 +51,6 @@ export const PhoneAndNavWrapper = styled.div`
 export const SecondRow = styled.div`
   display: grid;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 3rem;
   place-items: start;
 `;

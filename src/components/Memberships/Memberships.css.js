@@ -6,7 +6,7 @@ export const MembershipsWrapper = styled.div`
   /* padding: 2.4rem; */
   display: flex;
   flex-direction: column;
-  margin-top: 2.4rem;
+  /* margin-top: 2.4rem; */
   color: #003049ff;
 `;
 

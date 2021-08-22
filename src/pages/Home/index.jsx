@@ -12,9 +12,9 @@ const Home = () => (
     <CenterSection>
       <FirstRow>
         <Logo />
-        <PhoneAndNavWrapper>
-          <Phone /> 
-          <Navigation />
+        <PhoneAndNavWrapper>          
+          <Phone />
+          <Navigation />       
         </PhoneAndNavWrapper>
       </FirstRow>
       
