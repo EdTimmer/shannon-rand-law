@@ -32,6 +32,7 @@ export const DescriptionWrapper = styled.div`
 
   @media only screen and (max-width: 56.25em) {
     grid-column: 1 / 2;
+    padding: 2rem 0 0 0;
   }
 `;
 
@@ -40,7 +41,7 @@ export const Header = styled.h3`
 `;
 
 export const TextWrapper = styled.p`
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 `;
 
 export const MembershipsWrapper = styled.div`
