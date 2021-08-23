@@ -14,10 +14,11 @@ export const LogoWrapper = styled.div`
   /* padding-top: 1rem; */
 
   @media only screen and (max-width: 56.25em) {
+    background-position: center;
     place-self: center;
-    object-fit: fill;
+    object-fit: contain;
     width: 35rem;
     min-height: 22rem;
-    padding-left: 0;
+    padding: 0;
   }
 `;
