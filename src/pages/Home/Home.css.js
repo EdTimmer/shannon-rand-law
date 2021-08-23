@@ -47,7 +47,7 @@ export const FirstRow = styled.div`
 
   @media only screen and (max-width: 56.25em) {
     grid-template-columns: 1fr;
-    grid-auto-rows: repeat(2 min-content);
+    grid-auto-rows: repeat(2 max-content);
   }
 `;
 

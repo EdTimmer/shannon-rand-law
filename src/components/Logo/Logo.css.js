@@ -15,6 +15,9 @@ export const LogoWrapper = styled.div`
 
   @media only screen and (max-width: 56.25em) {
     place-self: center;
-    object-fit: contain;
+    object-fit: fill;
+    width: 35rem;
+    min-height: 22rem;
+    padding-left: 0;
   }
 `;
