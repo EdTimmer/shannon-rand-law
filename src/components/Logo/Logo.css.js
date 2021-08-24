@@ -19,5 +19,6 @@ export const LogoWrapper = styled.div`
     width: 35rem;
     min-height: 22rem;
     padding: 0;
+    margin-left: 0;
   }
 `;
