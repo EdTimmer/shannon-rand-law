@@ -22,7 +22,7 @@ export const CenterSection = styled.div`
       rgba(253, 240, 213, 0.4)
     ),
     url(${bridge}); */
-  background-image: linear-gradient(rgba(0, 48, 73, 0.4), rgba(0, 48, 73, 0.4)),
+  background-image: linear-gradient(rgba(0, 48, 73, 0.2), rgba(0, 48, 73, 0.2)),
     url(${bridge});
   /* background-image: url(${bridge}); */
   background-size: cover;

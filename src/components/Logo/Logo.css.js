@@ -1,17 +1,16 @@
 import styled from '@emotion/styled';
-import logo from '../../images/logo.png';
+import logo_1 from '../../images/shannon-rand-horizontal-rgb.svg';
 
 export const LogoWrapper = styled.div`
-  background-image: url(${logo});
+  background-image: url(${logo_1});
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: start;
   object-fit: contain;
-  width: 30rem;
-  min-height: 15rem;
-  padding-left: 5rem;
+  width: 50rem;
+  min-height: 20rem;
+  margin-left: -3.5rem;
+  margin-top: -3.5rem;
   place-self: start;
-  /* margin: 3rem; */
-  /* padding-top: 1rem; */
 
   @media only screen and (max-width: 56.25em) {
     background-position: center;
