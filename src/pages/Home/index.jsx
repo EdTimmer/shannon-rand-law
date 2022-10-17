@@ -2,10 +2,7 @@ import { Container, CenterSection, FirstRow, SecondRow, PhoneAndNavWrapper, Logo
 import Logo from '../../components/Logo/Logo';
 import Navigation from '../../components/Navigation';
 import Slogan from '../../components/Slogan/Slogan';
-import Button from '../../components/Button/Button';
-import Greeting from '../../components/Greeting/Greeting';
 import Phone from '../../components/Phone/Phone';
-// import Logo from '../../components/Logo/Logo';
 
 const Home = () => (
   <Container>    
